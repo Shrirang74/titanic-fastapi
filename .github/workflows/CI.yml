@@ -85,12 +85,8 @@ jobs:
     - name: Login to Docker hub
       env:
         DOCKER_USER: shrihegde
-        DOCKER_PASSWORD: dckr_pat_3yHz0jbNMdSyj5zna6GPVjEvazw
-<<<<<<< HEAD
-      run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-=======
+        DOCKER_PASSWORD: "dckr_pat_3yHz0jbNMdSyj5zna6GPVjEvazw"
         run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
->>>>>>> c6cbc39305f26b99de206ca52e4a715a5009fbd5
 
     - name: Build the Docker image for Fastapi app
       env:
