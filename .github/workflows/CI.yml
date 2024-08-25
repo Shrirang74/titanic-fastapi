@@ -24,7 +24,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: my-trained-pipeline
-        path: bikeshare_model/trained_models
+        path: titanic_model_api/trained_models
 
   test:
     needs: train
