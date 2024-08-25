@@ -10,8 +10,8 @@ import numpy as np
 import pandas as pd
 from pydantic import BaseModel, ValidationError
 
-from titanic_model.config.core import config
-from titanic_model.processing.data_manager import pre_pipeline_preparation
+from titanic_model_api.config.core import config
+from titanic_model_api.processing.data_manager import pre_pipeline_preparation
 
 
 def validate_inputs(*, input_df: pd.DataFrame) -> Tuple[pd.DataFrame, Optional[dict]]:
