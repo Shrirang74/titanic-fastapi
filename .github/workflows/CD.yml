@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Pull Docker Image
         env: 
-          DOCKER_USER: Shrirang74
+          DOCKER_USER: shrihegde
         run: sudo docker pull Shrirang74/titanic-fastapi:latest
     
       - name: Delete Old Docker Container
@@ -22,5 +22,5 @@ jobs:
     
       - name: Run Docker Container
         env: 
-          DOCKER_USER: Shrirang74
+          DOCKER_USER: shrihegde
         run: sudo docker run -it -d -p 8001:8001 --name titanic-fastapi-container Shrirang74/titanic-fastapi:latest
