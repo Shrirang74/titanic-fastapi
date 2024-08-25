@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r titanic-fastapi/requirements/test_requirements.txt
+        pip install -r titanic-fast-api/requirements/test_requirements.txt
     - name: Train Pipeline
       run: |
         python titanic_fast_api/titanic_model_api/train_pipeline.py
