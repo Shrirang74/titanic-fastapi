@@ -9,8 +9,8 @@ parent, root = file.parent, file.parents[1]
 sys.path.append(str(root))
 
 import numpy as np
-from titanic_model.config.core import config
-from titanic_model.processing.features import age_col_tfr
+from titanic_model_api.config.core import config
+from titanic_model_api.processing.features import age_col_tfr
 
 
 def test_age_variable_transformer(sample_input_data):
