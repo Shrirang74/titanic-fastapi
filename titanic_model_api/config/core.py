@@ -9,10 +9,10 @@ from typing import Dict, List
 from pydantic import BaseModel
 from strictyaml import YAML, load
 
-import titanic_model
+import titanic_model_api
 
 # Project Directories
-PACKAGE_ROOT = Path(titanic_model.__file__).resolve().parent
+PACKAGE_ROOT = Path(titanic_model_api.__file__).resolve().parent
 #print(PACKAGE_ROOT)
 ROOT = PACKAGE_ROOT.parent
 CONFIG_FILE_PATH = PACKAGE_ROOT / "config.yml"
