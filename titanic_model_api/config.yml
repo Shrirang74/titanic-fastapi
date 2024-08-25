@@ -1,5 +1,5 @@
 # Package Overview
-package_name: titanic_model
+package_name: titanic_model_api
 
 # Data Files
 training_data_file: titanic.csv
@@ -9,7 +9,7 @@ test_data_file: test.csv
 # The variable we are attempting to predict (Survival)
 target: Survived
 
-pipeline_name: titanic_model
+pipeline_name: titanic_model_api
 pipeline_save_file: titanic__model_output_v
 
 features:      # final features to be use
