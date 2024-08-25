@@ -8,10 +8,10 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 
-from titanic_model.config.core import config
-from titanic_model.processing.features import embarkImputer
-from titanic_model.processing.features import Mapper
-from titanic_model.processing.features import age_col_tfr
+from titanic_model_api.config.core import config
+from titanic_model_api.processing.features import embarkImputer
+from titanic_model_api.processing.features import Mapper
+from titanic_model_api.processing.features import age_col_tfr
 
 titanic_pipe=Pipeline([
     
