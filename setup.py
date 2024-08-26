@@ -6,7 +6,7 @@ from pathlib import Path
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = 'titanic_model'
+NAME = 'titanic_model_api'
 DESCRIPTION = "Titanic dataset classification model package "
 EMAIL = "------"
 AUTHOR = "----------"
@@ -25,7 +25,7 @@ about = {}
 ROOT_DIR = Path(__file__).resolve().parent
 print(ROOT_DIR)
 REQUIREMENTS_DIR = ROOT_DIR / 'requirements'
-PACKAGE_DIR = ROOT_DIR / 'titanic_model'
+PACKAGE_DIR = ROOT_DIR / 'titanic_model_api'
 with open(PACKAGE_DIR / "VERSION") as f:
     _version = f.read().strip()
     about["__version__"] = _version
